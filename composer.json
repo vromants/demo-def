@@ -1,0 +1,25 @@
+{
+    "name": "root/app",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "mnapoli/silly": "^1.7",
+        "fakerphp/faker": "^1.16"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "license": "NONE",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitalii Romantsov",
+            "email": "vitaliyromantsov@gmail.com"
+        }
+    ]
+}
